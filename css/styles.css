@@ -1,0 +1,122 @@
+.profimage {
+    border-radius: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.space {
+    height: 150px;
+}
+.home {
+    padding-right: 40px;
+}
+
+.home-page {
+    height: 100pc;
+    width: 100%;
+    background-color: #6D435A;
+}
+
+#info h1 {
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.stuff {
+    padding: 25px;
+}
+
+#info h2 {
+    color: white; 
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.about {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.navbar {
+    height: 90px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.imagediv {
+    /* position: relative; */
+    /* padding-left: 300px ; */
+    width: 100%;  
+    border-right: 2px solid white;
+}
+
+
+.nav-link {
+    color:white; 
+}
+
+#quotation {
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    color: #F4FF52;
+    /* padding-left: relative; 
+    padding-right: relative; */
+
+}
+
+.quotes {
+    /* border-bottom:2px solid white; */
+    padding-top: 80px;
+    margin: auto;
+    width: 75%;
+    /* background-color:; */
+    /* height: 100px;
+    border-top: 20px; */
+    font-family: 'Lato', sans-serif;
+    /* text-align: justify; */
+}
+
+.gap2 {
+    padding: 25px;
+}
+
+.about-me {
+    background-color: white;
+    height: 100%;
+}
+
+.about-head {
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.myself {
+    color: #6D435A;
+    border: 3px solid #6D435A;
+    padding: 40px;  
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+
+}
