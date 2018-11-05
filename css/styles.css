@@ -15,7 +15,16 @@
 .home-page {
     height: 100vh;
     width: 100%;
-    background-color: #6D435A;
+    /* background-color: #6D435A; */
+    background-image: url("../assets/images/kwesiPic.jpg");
+    /* opacity: 0.8; */
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgba(  215, 38, 0 ,0.6);
+    text-align-last: center;
+    color: whitesmoke;
 }
 
 #info h1 {
@@ -166,3 +175,8 @@
     height: 00px;
     opacity: 0.6;
 } */
+
+
+#eb_elect {
+    opacity: 0.4;
+}
