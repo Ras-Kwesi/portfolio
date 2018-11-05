@@ -121,8 +121,8 @@
 }
 
 .myself {
-    color: #6D435A;
-    border: 3px solid #6D435A;
+    color: rgba(  215, 38, 0 ,0.6);
+    border: 3px solid rgba(  215, 38, 0 ,0.6);
     padding: 40px;  
     font-family: 'Lato', sans-serif;
     font-style: italic;
@@ -139,6 +139,7 @@
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
@@ -179,4 +180,28 @@
 
 #eb_elect {
     opacity: 0.4;
+    /* background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-size:cover; */
+}
+
+.space_expe {
+    padding: 25px;
+}
+
+#card1 {
+    margin-left: 92px;
+}
+
+#eb_elect {
+    height: 20rem;
+}
+
+.my-skills {
+    background-color: white;
+    height: 100vh;
+}
+
+.space_skills {
+    padding: 25px;
 }
