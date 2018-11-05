@@ -8,6 +8,13 @@
 .space {
     height: 150px;
 }
+
+body {
+    width: 100%;
+    /* overflow-x:hidden; */
+    /* position: fixed; */
+}
+
 .home {
     padding-right: 40px;
 }
@@ -16,7 +23,7 @@
     height: 100vh;
     width: 100%;
     /* background-color: #6D435A; */
-    background-image: url("../assets/images/kwesiPic.jpg");
+    background-image: url("../assets/images/coding-language.jpg");
     /* opacity: 0.8; */
     background-blend-mode: overlay;
     background-attachment: fixed;
@@ -111,34 +118,59 @@
     background-color: white;
     height: 100vh;
 }
-
+/* 
 .about-head {
     background-color: black;
     width: 100%;
     color: white;
     text-align: center;
     padding: 10px;
+} */
+
+.about-head {
+    /* background-color: black; */
+    /* width: 100%; */
+    /* color: white; */
+    /* font-size: 50px; */
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+
+    color: rgba(  215, 38, 0 ,0.6);
+    border: 3px solid rgba(  215, 38, 0 ,0.6);
+    
+
 }
 
 .myself {
     color: rgba(  215, 38, 0 ,0.6);
-    border: 3px solid rgba(  215, 38, 0 ,0.6);
+    /* border: 3px solid rgba(  215, 38, 0 ,0.6); */
     padding: 40px;  
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: 900;
+    text-align: center;
+
+    background-color:  rgba(  215, 38, 0 ,0.6);
+    color: white;
 
 }
 
 .skills-header {
-    background-color: black;
+    /* background-color: black; */
     /* width: 100%; */
-    color: white;
+    /* color: white; */
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     width: 300px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+
+    color: rgba(  215, 38, 0 ,0.6);
+    border: 3px solid rgba(  215, 38, 0 ,0.6);
     
 
 }
