@@ -20,7 +20,7 @@
     <script src="js/scripts.js"></script>
 </head>
 
-<body>
+<body   >
     <!-- Home Page -->
     <div class="home-page" backround='assets/images/quality-code.jpg'>
         <nav class="navbar navbar-expand-lg" style="background-color:black;">
@@ -36,33 +36,25 @@
                         <a class="nav-link" href="#about-me">ABOUT ME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experience">EXPERIENCES</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#my-skills">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PROJECTS</a>
+                        <a class="nav-link" href="#projects-section">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACTS</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="space"></div>
+        <!-- <div class="space"></div>
         <div class="row">
-            <div class='imagediv col-md-6'>
-                <img class="profimage" src="assets/images/raspic.jpg">
-                <!-- <div class="overlay">KWESI MAKONNEN</div> -->
-            </div>
-            <div class="col-md-6" id='info'>
+            <div class="col-md-6 offset-md-3" id='info'>
                 <div class="about">
                     <div class="row stuff">
                         <h1>NAME :</h1>
                         <h2>Kwesi Makonnen</h2>
-                    </div>
-                    <div class="row stuff">
-                        <h1>D.O.B :</h1>
-                        <h2>01/09/1996</h2>
                     </div>
                     <div class="row stuff">
                         <h1>PROFESSION :</h1>
@@ -76,6 +68,23 @@
                 <h1 id='quotation'><strong>"Technology is about developing ease and creating solutions, not
                         impressions."</strong></h1>
             </div>
+        </div> -->
+        <div class="top-space"></div>
+        <div id='info'> 
+        <div class='about'>
+            <div class="row stuff">
+                <h1>NAME :</h1>
+                <h2>Kwesi Makonnen</h2>
+            </div>
+            <div class="row stuff">
+                <h1>PROFESSION :</h1>
+                <h2>Python Developer</h2>
+            </div>
+        </div>
+        </div>
+        <div id='quotes' class='row'>
+            <h1 id='quotation'><strong>"Technology is about developing ease and creating solutions, not
+                    impressions."</strong></h1>
         </div>
     </div>
 
@@ -88,9 +97,13 @@
         <div class="about-head">
             <h1>ABOUT ME</h1>
         </div>
-        <div class="gap2"></div>
+        <div class="gap4"></div>
         <div class="row">
-            <div class="col-md-8 offset-md-2">
+                <div class='imagediv col-md-5'>
+                        <img class="profimage" src="assets/images/raspic.jpg">
+                        <!-- <div class="overlay">KWESI MAKONNEN</div> -->
+                </div>
+            <div class="col-md-6">
                 <div class="container" id='containing'>
                     <!-- <img class="image2" src="assets/images/raspic.jpg"> -->
                     <div class="myself">
@@ -106,53 +119,7 @@
             </div>
         </div>
         <div class="gap2"></div>
-        <div class='skills-header'>
-            <h1>EXPERIENCES</h1>
-        </div>
         <div class="space_expe"></div>
-        <div id="experience">
-            <div id="experience part-one" class="row">
-                <div class="col-md-3" id='card1'>
-                    <div class="card border-warning mb-3 bg-dark text-warning text-center">
-                        <img class="card-img" id='eb_elect' src="assets/images/eb_elect.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-header border-warning">CHAPTER VICE PRESIDENT</h4>
-                            <h5 class="card-title">AIESEC in Kenyatta</h5>
-                            <p class="card-text">University and Alumni Relations</p>
-                            <p class="card-text">2016 - 2017</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 offset-md-1">
-                    <div class="card border-warning mb-3 bg-dark text-warning text-center ">
-                        <img class="card-img" id='eb_elect' src="assets/images/cairo.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-header border-warning">EXCHANGE VOLUNTEER</h4>
-                            <h5 class="card-title">Enable Project</h5>
-                            <p class="card-text">Lead Facilitator, Master Academy</p>
-                            <p class="card-text">July - Auugust 2016</p>
-                            <p class="card-text">AIESEC in Suez</p>
-                            <p class="card-text">Suez, Egypt</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 offset-md-1">
-                    <div class="card border-warning mb-3 bg-dark text-warning text-center">
-                        <img class="card-img" id='eb_elect' src="assets/images/eb_elect.jpg" alt="Card image">
-                        <div class="card-img-overlay">
-                            <h4 class="card-header border-warning">AIESEC in Kenyatta</h4>
-                            <h5 class="card-title">Position - Local Chapter Vice President</h5>
-                            <p class="card-text">Role - University and Alumni Relations</p>
-                            <p class="card-text">Timeline - 2016 - 2017</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                            <p class="card-text">Last updated 3 mins ago</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </div>
     <!-- End of About Me Section -->
@@ -161,7 +128,8 @@
     <div class="gap2"></div>
     <div class="space_skills"></div>
     <div class="my-skills" id='my-skills'>
-        <div class="about-head">
+            <div class="gap2"></div>
+        <div class="skills-head">
             <h1>SKILLS</h1>
         </div>
         <div class="space_skills"></div>
@@ -169,56 +137,71 @@
 
         </div> -->
         <div class="card-deck">
-            <div class="card" style="max-width: 38rem; max-height: 40rem;">
+            <div class="card" style="max-width: 22rem; height: 25rem;">
                 <img class="card-img-top" src="assets/images/flask.png" alt="Card image cap" style="height: 75%;">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Flask</h5>
+                    <p class="card-text">I used flask framework on 5 projects.</p>
                 </div>
             </div>
-            <div class="card" style="max-width: 38rem; max-height: 40rem;">
+            <div class="card" style="max-width: 22rem; height: 25rem;">
                 <img class="card-img-top" src="assets/images/angular.png" alt="Card image cap" style="height: 75%;" >
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Angular 6</h5>
+                    <p class="card-text">I worked with angular to make powerful dynamic, user-centric applications</p>
                 </div>
             </div>
-            <div class="card" style="max-width: 38rem; max-height: 40rem;">
+            <div class="card" style="max-width: 22rem; max-height: 25rem;">
                 <img class="card-img-top" src="assets/images/django-logo-negative.png" alt="Card image cap" style="height: 75%;" >
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Django 1.11</h5>
+                    <p class="card-text">I used django to built large projects.</p>
                 </div>
             </div>
-        </div>
-        <div class="space_skills"></div>
-        <div class="card-deck">
-            <div class="card" style="max-width: 38rem; max-height: 40rem;">
+            <div class="card" style="max-width: 22rem; max-height: 25rem;">
                 <img class="card-img-top" src="assets/images/htmlcssjs.png" alt="Card image cap" style="height: 75%;">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Dynamic and Interactive Webpages</h5>
+                    <p class="card-text"></p>
                 </div>
             </div>
-            <div class="card" style="max-width: 38rem; max-height: 40rem;">
+            <div class="card" style="max-width: 22rem; max-height: 25rem;">
                 <img class="card-img-top" src="assets/images/Python.png" alt="Card image cap" style="height: 75%;">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Python </h5>
+                    <p class="card-text"></p>
                 </div>
             </div>
         </div>
+         <!-- End of Skills region -->
+
+
+    <!-- Projects -->
+        <div class="projects-section" id='projects-section'>
+            <div class="gap2"></div>
+            <div class="gap2"></div>
+            <div class="skills-head">
+                <h1>PROJECTS</h1>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Cras justo odio</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">Card link</a>
+                  <a href="#" class="card-link">Another link</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    
 </body>
 
 </html>
