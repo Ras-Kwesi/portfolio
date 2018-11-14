@@ -239,6 +239,9 @@ body {
     margin-left: 92px;
 }
 
+#card1 {
+    padding: 50px;
+}
 
 .my-skills {
     /* background-color:  rgba(  215, 38, 0 ,0.6); */
@@ -273,4 +276,9 @@ body {
 
 .card-deck {
     margin-left: 0.5px;
+}
+
+#contact-phrase{
+    padding-top: 18%;
+    
 }
