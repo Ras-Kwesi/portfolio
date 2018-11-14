@@ -278,7 +278,36 @@ body {
     margin-left: 0.5px;
 }
 
-#contact-phrase{
-    padding-top: 18%;
-    
+.contact-me {
+    /* border: 3px solid rgba(  215, 38, 0 ,0.6); */
+    border-top: 3px solid rgba(  215, 38, 0 ,0.6);
+    border-bottom: 3px solid rgba(  215, 38, 0 ,0.6);
 }
+
+
+#contact-phrase{
+    padding-top: 15%;
+    color: white;
+    /* color: rgba(  215, 38, 0 ,0.6); */
+    /* border-top: 3px solid rgba(  215, 38, 0 ,0.6); */
+    /* border-bottom: 3px solid rgba(  215, 38, 0 ,0.6); */
+    /* border-right: 3px solid rgba(  215, 38, 0 ,0.6); */
+    /* border: 3px solid rgba(  215, 38, 0 ,0.6); */
+}
+
+#email {
+    padding-left: 200px;
+}
+
+.contacts{
+    width: 60%;
+}
+.email-link {
+    padding-left: 1100px; 
+}
+
+#contact3 {
+    background-color: rgba(  215, 38, 0 ,0.6);
+    color: rgba(  215, 38, 0 ,0.6);
+}
+
