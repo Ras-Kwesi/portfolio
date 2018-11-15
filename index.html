@@ -28,20 +28,20 @@
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand home" href="#"><strong>HOME</strong></a>
+            <a class="navbar-brand home" href="#" id="homelink"><strong>HOME</strong></a>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item" id="navlinks">
                         <a class="nav-link" href="#about-me">ABOUT ME<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="navlinks">
                         <a class="nav-link" href="#my-skills">SKILLS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="navlinks">
                         <a class="nav-link" href="#projects-section">PROJECTS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="navlinks">
                         <a class="nav-link" href="#">CONTACTS</a>
                     </li>
                 </ul>
@@ -71,15 +71,8 @@
         </div> -->
         <div class="top-space"></div>
         <div id='info'>
-            <div class='about'>
-                <div class="row stuff">
-                    <h1>NAME :</h1>
-                    <h2>Kwesi Makonnen</h2>
-                </div>
-                <div class="row stuff">
-                    <h1>PROFESSION :</h1>
-                    <h2>Python Developer</h2>
-                </div>
+            <div class="row stuff col-md-6 offset-md-8">
+                <center><h2>Am <strong>Kwesi Makonnen</strong>, A full-stack developer. Welcome to my portfolio!</h2></center>
             </div>
         </div>
         <div id='quotes' class='row'>
@@ -108,8 +101,7 @@
                     <!-- <img class="image2" src="assets/images/raspic.jpg"> -->
                     <div class="myself">
                         <div class="self-header"></div>
-                        <h3 class='my-text'>I am a Javascript and Python developer, who is excels at solving tough
-                            problems in simple ways.
+                        <h3 class='my-text'>Am a Web Developer,
                             I've developed applications with Angular, Flask and Django frameworks. Am intersted in
                             delving
                             into Machine-learning and Artificial intelligence in the longterm. <br>
@@ -131,50 +123,56 @@
     <div class="space_skills"></div>
     <div class="my-skills" id='my-skills'>
         <div class="gap2"></div>
+        <div class="gap2"></div>
         <div class="skills-head">
             <h1>SKILLS</h1>
         </div>
         <div class="space_skills"></div>
+        <div class="gap2"></div>
         <!-- <div class="col-md-3">
 
         </div> -->
         <div class="card-deck">
-            <div class="card" style="max-width: 22rem; height: 25rem;">
-                <img class="card-img-top" src="assets/images/flask.png" alt="Card image cap" style="height: 75%;">
+            <div class="card border-warning mb-3" style="max-width: 22rem; height: 25rem;">
+                <img class="card-img-top" src="assets/images/flask.png" alt="Card image cap" style="height: 68%;">
                 <div class="card-body">
                     <h5 class="card-title">Flask</h5>
                     <p class="card-text">I used flask framework on 5 projects.</p>
                 </div>
             </div>
-            <div class="card" style="max-width: 22rem; height: 25rem;">
-                <img class="card-img-top" src="assets/images/angular.png" alt="Card image cap" style="height: 75%;">
+            <div class="card border-warning mb-3" style="max-width: 22rem; height: 25rem;">
+                <img class="card-img-top" src="assets/images/angular.png" alt="Card image cap" style="height: 68%;">
                 <div class="card-body">
                     <h5 class="card-title">Angular 6</h5>
                     <p class="card-text">I worked with angular to make powerful dynamic, user-centric applications</p>
                 </div>
             </div>
-            <div class="card" style="max-width: 22rem; max-height: 25rem;">
-                <img class="card-img-top" src="assets/images/django-logo-negative.png" alt="Card image cap" style="height: 75%;">
+            <div class="card border-warning mb-3" style="max-width: 22rem; max-height: 25rem;">
+                <img class="card-img-top" src="assets/images/django-logo-negative.png" alt="Card image cap" style="height: 68%;">
                 <div class="card-body">
                     <h5 class="card-title">Django 1.11</h5>
-                    <p class="card-text">I used django to built large projects.</p>
+                    <p class="card-text">I used django framework to built large, multi-user heirarchical-level projects.</p>
                 </div>
             </div>
-            <div class="card" style="max-width: 22rem; max-height: 25rem;">
-                <img class="card-img-top" src="assets/images/htmlcssjs.png" alt="Card image cap" style="height: 75%;">
+            <div class="card border-warning mb-3" style="max-width: 22rem; max-height: 25rem;">
+                <img class="card-img-top" src="assets/images/htmlcssjs.png" alt="Card image cap" style="height: 68%;">
                 <div class="card-body">
                     <h5 class="card-title">Dynamic and Interactive Webpages</h5>
                     <p class="card-text"></p>
                 </div>
             </div>
-            <div class="card" style="max-width: 22rem; max-height: 25rem;">
-                <img class="card-img-top" src="assets/images/Python.png" alt="Card image cap" style="height: 75%;">
+            <div class="card border-warning mb-3" style="max-width: 22rem; max-height: 25rem;">
+                <img class="card-img-top" src="assets/images/Python.png" alt="Card image cap" style="height: 68%;">
                 <div class="card-body">
                     <h5 class="card-title">Python </h5>
                     <p class="card-text"></p>
                 </div>
             </div>
         </div>
+        <div class="gap2"></div>
+            <div class="gap2"></div>
+
+    </div>
         <!-- End of Skills region -->
 
 
@@ -190,7 +188,7 @@
             <div class="gap2"></div>
 
             <div class="card-deck">
-                <div class="card" id='card2' style="height: 35rem;">
+                <div class="card border-danger mb-3" id='card2' style="height: 35rem;">
                     <img class="card-img-top" src="assets/images/blogfortechshot.png" alt="Card image cap" style="height: 60%;">
                     <div class="card-body">
                         <h5 class="card-title">Blog Project</h5>
@@ -203,7 +201,7 @@
                     </div>
                 </div>
 
-                <div class="card" id='card2' style=" height: 35rem;">
+                <div class="card border-danger mb-3" id='card2' style=" height: 35rem;">
                     <img class="card-img-top" src="assets/images/photgramshot.png" alt="Card image cap" style="height: 60%;">
                     <div class="card-body">
                         <h5 class="card-title">Instagram Clone Project</h5>
@@ -218,7 +216,7 @@
                     </div>
                 </div>
 
-                <div class="card" id='card2' style=height: 35rem;">
+                <div class="card border-danger mb-3" id='card2' style=height: 35rem;">
                     <img class="card-img-top" src="assets/images/mjinishot.png" alt="Card image cap" style="height: 60%;">
                     <div class="card-body">
                         <h5 class="card-title">Neighbourhood Community Project</h5>
@@ -243,8 +241,7 @@
 
     <!-- End of projects section -->
 
-    <div class="gap2"></div>
-    <div class="gap2"></div>
+    <div class="gap5"></div>
 
     <!-- Contact Section -->
 

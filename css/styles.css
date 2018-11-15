@@ -9,6 +9,15 @@
     height: 150px;
 }
 
+
+#navlinks {
+    padding-left: 60px;
+}
+
+#homelink {
+    padding-right: 250px;
+}
+
 body {
     width: 100%;
     /* overflow-x:hidden; */
@@ -23,7 +32,7 @@ body {
     height: 100vh;
     width: 100%;
     /* background-color: #6D435A; */
-    background-image: url("../assets/images/coding-language.jpg");
+    background-image: url("../assets/images/keyboardkeys-1.jpg");
     /* opacity: 0.8; */
     background-blend-mode: overlay;
     background-attachment: fixed;
@@ -38,9 +47,9 @@ body {
 
     position: absolute;
     text-align: center;
-    z-index: 15;
+    /* z-index: 15; */
     top: 40%;
-    left: 40%;
+    /* left: 40%; */
     margin: -100px 0 0 -150px;
         
 }
@@ -52,22 +61,26 @@ body {
     font-size: 40px;
     padding-left: 80px;
     padding-right: 20px;
+    padding-top: 75px;
+    font-style: italic;
 }
 
 .stuff {
     /* width: 800px; */
-    padding: 0px;
+    /* padding: 0px; */
 }
 
 #info h2 {
     color: white; 
     font-size: 40px;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-style: italic;
+    font-weight: 500;
+    /* font-style: italic; */
+    padding-top: 75px;
 }
 
 .about {
+
 }
 
 
@@ -105,7 +118,7 @@ body {
     padding-top: 350px;
     margin: auto;
     width: 75%;
-    top: 70% ;
+    top: 78% ;
     /* background-color:; */
     /* height: 100px;
     border-top: 20px; */
@@ -117,6 +130,9 @@ body {
     padding: 25px;
 }
 
+.gap5 {
+    padding: 10px;
+}
 .gap3 {
     padding: 20px;
 }
@@ -161,7 +177,7 @@ body {
 .myself {
     color: rgba(  215, 38, 0 ,0.6);
     /* border: 3px solid rgba(  215, 38, 0 ,0.6); */
-    padding: 40px;  
+    padding: 50px;  
     font-family: 'Lato', sans-serif;
     font-style: italic;
     font-weight: 900;
@@ -184,6 +200,7 @@ body {
 
     color: rgba(  215, 38, 0 ,0.6);
     border: 3px solid rgba(  215, 38, 0 ,0.6);
+    
     
 
 }
@@ -246,7 +263,7 @@ body {
 .my-skills {
     /* background-color:  rgba(  215, 38, 0 ,0.6); */
     /* height: 100vh; */
-    background-color: black;
+    background-color: #FBF7F6;
 
 }
 
@@ -258,7 +275,7 @@ body {
 .skills-head {
     /* background-color: black; */
     /* width: 100%; */
-    color: white;
+    /* color: white; */
     /* font-size: 50px; */
     font-weight: 600;
     text-align: center;
@@ -267,9 +284,13 @@ body {
     margin-left: auto;
     margin-right: auto; 
 
-    /* color: rgba(  215, 38, 0 ,0.6); */
+    color: rgba(  215, 38, 0 ,0.6);
     /* border: 3px solid rgba(  215, 38, 0 ,0.6); */
-    border: 3px solid white;
+    /* border: 3px solid white; */
+    /* border-top  : 3px solid white;
+    border-bottom  : 3px solid white; */
+    border-top  : 3px solid rgba(  215, 38, 0 ,0.6);
+    border-bottom  : 3px solid rgba(  215, 38, 0 ,0.6);
     
 
 }
